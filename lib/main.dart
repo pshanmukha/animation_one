@@ -1,3 +1,4 @@
+import 'package:animation_one/animatedimage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -44,7 +45,7 @@ class MyHomePage extends StatelessWidget {
             children: [
               SizedBox(height: notificationBarHeight,),
               SizedBox(height: 10,),
-
+              AnimateImage(),
             ],
           ),
         ),
